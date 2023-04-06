@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+}
+
+#res_logo {
+    /* float: left; */
+    margin-left: 40px;
+    display: flex;
+    align-items: center;
+
+}
+
+#options {
+    /* float:right; */
+    margin-right: 40px;
+    margin-top: 10px;
+}
+
+#header{
+    /* background-color: aqua; */
+    border: 1px black solid;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* width:600px; */
+}
+
+#res_name{
+    font-size: 30px;
+    font-family: "Lucida Handwriting";
+}
+
+#res_name_container{
+    display: flex;
+    align-items: center;
+}
+
+
+#footer{
+    display: flex;
+    justify-content: space-around;
+    border: 1px black solid;
+    flex-wrap: wrap;
+}
+
+#footer #res_logo{
+    flex-shrink: 0;
+}
+
+.foot_elements{
+    flex-shrink: 0;
+}
+
+.foot_elements span{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#footer #res_name{
+    font-size: 24px;
+}
