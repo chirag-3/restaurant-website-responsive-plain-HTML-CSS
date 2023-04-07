@@ -146,13 +146,42 @@
 }
 
 #advantages {
-    flex-basis: 80%;
+    flex-basis: 80vw;
     display: flex;
+    justify-content: center;
     flex-grow: 1;
+    flex-shrink: 0;
+    border: 1px black solid;
+    margin: 2vh;
+    box-shadow: 0px 2px 0px black;
+    flex-wrap: wrap;
 }
 
-#advantages div{
+
+#advantages > div{
+    display: flex;
+    flex-wrap: wrap;
+    flex-shrink: 0;
+}
+
+#advantages > div{
     border: 1px black solid;
-    flex-basis: 30%;
-    flex-grow: 1;
+    flex-basis: 32%;
+    flex-grow: 0;
+    justify-content: center;
+}
+
+#advantages img{
+    height: 10vh;
+    width: 10vw;
+}
+
+#advantage{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#advantages > div{
+    margin:1vh;
 }
