@@ -20,7 +20,7 @@
 
 #header{
     /* background-color: aqua; */
-    border: 1px black solid;
+    /* border: 1px black solid; */
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -65,9 +65,9 @@
 
 #main-image{
     flex-basis: 30%;
-    padding-left:9vw;
+    padding-left:13vw;
     flex-grow: 1;
-    border: 1px black solid;
+    /* border: 1px black solid; */
     display: flex;
     flex-direction: column;
     flex-shrink: 0;
@@ -116,16 +116,16 @@
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    border: 1px black solid;
+    /* border: 1px black solid; */
     flex-basis: 40%;
     flex-grow: 1;
     padding-left: 2vw;
     flex-shrink: 0;
 }
 
-#main-text div{
+/* #main-text div{
     border: 1px black solid;
-}
+} */
 
 #text-container{
     height:40vh;
@@ -153,9 +153,9 @@
     justify-content: center;
     flex-grow: 1;
     flex-shrink: 0;
-    border: 1px black solid;
+    /* border: 1px black solid; */
     margin: 2vh;
-    box-shadow: 0px 2px 0px black;
+    box-shadow: 0px 0px 2px black;
     flex-wrap: wrap;
 }
 
@@ -167,10 +167,16 @@
 }
 
 #advantages > div{
-    border: 1px black solid;
+    /* border: 1px black solid; */
+    
     flex-basis: 32%;
     flex-grow: 0;
     justify-content: center;
+}
+
+
+#advantages > div:hover {
+    box-shadow: 0px 0px 2px black;;
 }
 
 #advantages img{
